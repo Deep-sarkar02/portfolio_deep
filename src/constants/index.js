@@ -1,8 +1,9 @@
+// Array of objects defining the links in the upper navigation bar
 export const navLinks = [
   {
-    id: 1,
-    name: 'Home',
-    href: '#home',
+    id: 1, // Unique identifier for the list item
+    name: 'Home', // Text that users see
+    href: '#home', // ID of the section to scroll to
   },
   {
     id: 2,
@@ -18,6 +19,11 @@ export const navLinks = [
     id: 4,
     name: 'Contact',
     href: '#contact',
+  },
+  {
+    id: 5,
+    name: 'Resume',
+    href: 'https://drive.google.com/file/d/10TXAaP3hNCYnRjeJnCxDEvwhbN1MOX31/view?usp=drive_link', // Direct link to your Google Drive resume
   },
 ];
 
@@ -58,39 +64,39 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'WanderLust - Property Management',
+    desc: 'WanderLust is a full-stack web application for property management, designed to allow users to add, view, edit, and delete properties, as well as leave reviews and ratings. The platform integrates Google Maps API for property location visualization and Cloudinary for secure image storage.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Features secure authentication with Passport.js, robust data validation with Joi, and an interactive UI built with EJS and Bootstrap. Demonstrates expert-level backend integration with Node.js and MongoDB.',
+    href: 'https://github.com/Deep-sarkar02/wanderlust-property-management',
+    texture: '/assets/grid3.png', // Using a placeholder image since no video is provided
+    logo: 'https://cdn-icons-png.flaticon.com/512/2163/2163350.png', // Professional Building/Property Icon
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Node.js',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'MongoDB',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Express',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
       },
     ],
   },
@@ -208,17 +214,17 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'ImaGeen - AI Image Generation Platform',
+    desc: 'ImaGeen is a powerful full-stack AI image generation platform that transforms imagination into stunning visual art. Users can generate high-quality images from text prompts, manage accounts, and purchase credits.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+      'Built with React, Node.js, MongoDB, and Express. Integrates ClipDrop API for AI generations and Razorpay for secure payments. Features JWT authentication and a sophisticated credit system.',
+    href: 'https://ima-geen-text-to-image-generation-a.vercel.app/',
+    texture: '/assets/grid2.png', // Placeholder texture
+    logo: 'https://cdn-icons-png.flaticon.com/512/3421/3421111.png', // Professional AI/Image Icon
     logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
@@ -229,18 +235,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Node.js',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'MongoDB',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
       },
     ],
   },

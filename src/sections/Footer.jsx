@@ -17,7 +17,7 @@ const Footer = () => {
 
                 {/* Social Icons */}
                 <div className="flex items-center gap-4">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <a href="https://github.com/Deep-sarkar02" target="_blank" rel="noopener noreferrer" className="social-icon">
                         <img src="/assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
                     </a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">

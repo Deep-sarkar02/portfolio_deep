@@ -57,7 +57,15 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-7xl md:text-6xl sm:text-5xl text-4xl font-generalsans font-black !leading-[1.1] tracking-tighter;
+  }
+
+  .hero-glow {
+    @apply absolute rounded-full blur-[120px] opacity-20 pointer-events-none;
+  }
+
+  .glass-container {
+    @apply backdrop-filter backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl;
   }
 
   /* about section */
