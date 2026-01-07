@@ -7,6 +7,7 @@ import Experience from "./sections/Experience"; // Import the experience timelin
 import Contact from "./sections/Contact"; // Import the contact form section
 import Footer from "./sections/Footer"; // Import the bottom footer section
 import Exp from "./sections/Exp"; // Import the alternative experience section being used
+import CodingSkills from "./sections/CodingSkills"; // Import the coding skills stats section
 import { ToastContainer } from "react-toastify"; // Import container for popup notifications
 import "react-toastify/dist/ReactToastify.css"; // Import the default styles for notifications
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
 
       {/* Projects: Display of completed work */}
       <Projects />
+
+      {/* CodingSkills: Portfolio stats from LeetCode and GFG */}
+      <CodingSkills />
 
       {/* Exp: Rendering the professional experience section */}
       <Exp />

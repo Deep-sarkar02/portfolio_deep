@@ -10,9 +10,11 @@ Welcome to my professional 3D portfolio! This project showcases a blend of moder
 
 - **Immersive 3D Hero Section**: Featuring a floating desk environment and dynamic tech icons.
 - **Interactive Experience Display**: A customized 3D character model responding to your interactions.
+- **Real-time Coding Stats**: Integrated **LeetCode** and **GeeksforGeeks** dynamic stat cards to showcase problem-solving progress.
 - **Smooth Animations**: Powered by **Framer Motion** for elegant transitions and scroll effects.
 - **Direct Showcases**:
-  - **GitHub Profile**: Integrated links to showcase my open-source work.
+  - **Projects**: Curated selection of professional work.
+  - **Coding Skills**: Real-time stats from top CP platforms.
   - **Resume**: Direct access to my latest professional resume (hosted on Google Drive).
 - **Responsive Design**: Optimized for everything from mobile phones up to massive desktop monitors.
 - **Contact Integration**: Fully functional contact form powered by **EmailJS**.
@@ -68,6 +70,8 @@ I've also added **line-by-line comments** to all core files in the `src/` direct
 ## 📬 Connect with Me
 
 - **GitHub**: [Deep-sarkar02](https://github.com/Deep-sarkar02)
+- **LeetCode**: [deep-002S](https://leetcode.com/u/deep-002S/)
+- **GFG**: [chandrangshum518](https://www.geeksforgeeks.org/profile/chandrangshum518)
 - **Portfolio**: [Live Showcase](/)
 
 ---
