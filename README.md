@@ -1,4 +1,4 @@
-# 🌟 Chandrangshu's 3D Portfolio
+# 🌟 Chandrangshu's Portfolio
 
 ![Portfolio Preview](./public/assets/portfolio-preview.png)
 
